@@ -13,7 +13,7 @@ Step 1: Create an S3 Bucket
     o	Region: ap-south-1 (Mumbai)
     o	Block Public Access: ✅ Enabled
   5.	Click Create bucket
-  ![Bucket Created](images/1.png)
+  #![Bucket Created](images/1.png)
 ________________________________________
 Step 2: Create Folder Structure
   Inside the bucket, created the following folders:
@@ -21,7 +21,7 @@ Step 2: Create Folder Structure
     •	images/
     •	logs/
 This ensures organized storage.
-![Folder Created](images/2.png)
+#![Folder Created](images/2.png)
 ________________________________________
 Step 3: Upload Example Files
 Uploaded the following files:
@@ -29,9 +29,9 @@ Uploaded the following files:
   •	1 Eg. Log file
   •	1 Image file (.png)
 Files were organized into appropriate folders.
-![Example file 1](images/3.png)
-![Example file 2](images/4.png)
-![Example file 3](images/5.png)
+#![Example file 1](images/3.png)
+#![Example file 2](images/4.png)
+#![Example file 3](images/5.png)
 ________________________________________
 Step 4: Configure Access Permissions
 Block Public Access
@@ -40,26 +40,26 @@ Block Public Access
 Object Ownership
   •	Bucket owner enforced (ACLs disabled).
   •	Access controlled using bucket policies & IAM.
-![Access Permission](images/6.png)
+#![Access Permission](images/6.png)
 ________________________________________
 Step 5: Enable Default Encryption
   •	Enabled Server-Side Encryption (SSE-S3)
   •	Ensures data is encrypted at rest.
-![Encryption](images/7.png)
+#![Encryption](images/7.png)
 ________________________________________
 Step 6: Enable Bucket Versioning
   •	Enabled versioning to maintain multiple versions of objects.
   •	Prevents accidental data loss.
-![Bucket Versioning](images/8.png)
+#![Bucket Versioning](images/8.png)
 ________________________________________
 Step 7: Verify Private Access
   1.	Copied Object URL of an uploaded file.
   2.	Opened it in Incognito window.
   3.	Received:
 
-![Verify file 1](images/9.png)
-![Verify file 2](images/10.png)
-![Verify file 3](images/11.png)
+#![Verify file 1](images/9.png)
+#![Verify file 2](images/10.png)
+#![Verify file 3](images/11.png)
 This confirms secure configuration.
 ________________________________________
 Conclusion: 
