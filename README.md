@@ -56,6 +56,7 @@ Step 7: Verify Private Access
   1.	Copied Object URL of an uploaded file.
   2.	Opened it in Incognito window.
   3.	Received:
+
 ![Verify file 1](images/9.png)
 ![Verify file 2](images/10.png)
 ![Verify file 3](images/11.png)
