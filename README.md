@@ -13,7 +13,7 @@ Step 1: Create an S3 Bucket
     o	Region: ap-south-1 (Mumbai)
     o	Block Public Access: ✅ Enabled
   5.	Click Create bucket
- 
+ ![Bucket Created](images/1.png)
 ________________________________________
 Step 2: Create Folder Structure
   Inside the bucket, created the following folders:
@@ -21,7 +21,7 @@ Step 2: Create Folder Structure
     •	images/
     •	logs/
 This ensures organized storage.
-
+ ![Folder Created](images/2.png)
 ________________________________________
 Step 3: Upload Example Files
 Uploaded the following files:
@@ -29,7 +29,9 @@ Uploaded the following files:
   •	1 Eg. Log file
   •	1 Image file (.png)
 Files were organized into appropriate folders.
-
+ ![File 1 Created](images/3.png)
+ ![File 2 Created](images/4.png)
+ ![File 3 Created](images/5.png)
 ________________________________________
 Step 4: Configure Access Permissions
 Block Public Access
@@ -38,23 +40,25 @@ Block Public Access
 Object Ownership
   •	Bucket owner enforced (ACLs disabled).
   •	Access controlled using bucket policies & IAM.
-
+ ![Access Permissions](images/6.png)
 ________________________________________
 Step 5: Enable Default Encryption
   •	Enabled Server-Side Encryption (SSE-S3)
   •	Ensures data is encrypted at rest.
-
+ ![Encryption](images/7.png)
 ________________________________________
 Step 6: Enable Bucket Versioning
   •	Enabled versioning to maintain multiple versions of objects.
   •	Prevents accidental data loss.
-
+ ![Bucket Versioning](images/8.png)
 ________________________________________
 Step 7: Verify Private Access
   1.	Copied Object URL of an uploaded file.
   2.	Opened it in Incognito window.
   3.	Received:
-
+![File 1 Result](images/9.png)
+![File 2 Result](images/10.png)
+![File 3 Result](images/11.png)
 
 This confirms secure configuration.
 ________________________________________
