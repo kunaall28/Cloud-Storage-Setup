@@ -13,7 +13,7 @@ Step 1: Create an S3 Bucket
     o	Region: ap-south-1 (Mumbai)
     o	Block Public Access: ✅ Enabled
   5.	Click Create bucket
- ![Bucket Created](images/1.png)
+![Bucket Created](images/1.png)
 ________________________________________
 Step 2: Create Folder Structure
   Inside the bucket, created the following folders:
@@ -56,6 +56,7 @@ Step 7: Verify Private Access
   1.	Copied Object URL of an uploaded file.
   2.	Opened it in Incognito window.
   3.	Received:
+
 ![File 1 Result](images/9.png)
 ![File 2 Result](images/10.png)
 ![File 3 Result](images/11.png)
